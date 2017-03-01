@@ -5,6 +5,7 @@ import java.sql.Date;
 import java.sql.PreparedStatement;
 
 import com.newt.entity.Student;
+import com.newt.utils.Database;
 
 
 public class StudentDAO {

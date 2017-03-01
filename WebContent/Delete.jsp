@@ -7,7 +7,7 @@
 <title>Deleting Student</title>
 </head>
 <body>
-Please Enter the Student Id to be Delete
+Please Enter the Student Id to be Delete<br>
 <form action="DeleteController" method="post">
 <table>
 <tr><td>Enter the Student Id:</td>
