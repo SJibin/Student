@@ -5,7 +5,6 @@ DROP SCHEMA IF EXISTS `verizon` ;
 -- -----------------------------------------------------
 CREATE SCHEMA IF NOT EXISTS `verizon` DEFAULT CHARACTER SET utf8 ;
 USE `verizon` ;
-
 -- -----------------------------------------------------
 -- Table `verizon`.`student`
 -- -----------------------------------------------------
