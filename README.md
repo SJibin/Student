@@ -1,6 +1,6 @@
 # Student
 
-Created simple web application for creating Student record,updating record and deleting record.
+Created simple web application for creating,Viewing,updating and deleting student record.
 
 Technologies Used In
 ---------------------

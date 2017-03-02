@@ -33,6 +33,7 @@
 			</tr>
 			<tr>
 				<td colspan="2"><input type="submit" value="Add" /></td>
+				<td colspan="2"><a href="EnterId.jsp"><input type="button" value="View"></a></td>
 				<td colspan="2"><a href="UpdateReg.jsp"><input type="button" value="Update"></a></td>
 				<td colspan="2"><a href="Delete.jsp"><input type="button" value="Delete"></a></td>
 			</tr>

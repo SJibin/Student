@@ -16,12 +16,12 @@ public class DeleteController extends HttpServlet {
 		PrintWriter out = response.getWriter();
 		String sid = request.getParameter("id");
 		int id = Integer.parseInt(sid);
-		int status=StudentDAO.delete(id);
-		if(status>0){  
-	           out.println("<p>Record Delete successfully!</p>");  
-	            request.getRequestDispatcher("StudentReg.jsp").include(request, response);  
-	        }else{  
-	           log("Sorry! unable to Delete record");  
-	        }  
+		int status = StudentDAO.delete(id);
+		if (status > 0) {
+			out.println("<p>Record Delete successfully!</p>");
+			request.getRequestDispatcher("StudentReg.jsp").include(request, response);
+		} else {
+			log("Sorry! unable to Delete record");
+		}
 	}
 }

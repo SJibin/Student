@@ -17,10 +17,10 @@ import com.newt.entity.Student;
 public class UpdateController extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		
+
 		response.setContentType("text/html");
 		PrintWriter out = response.getWriter();
-		
+
 		Date admissionDate = null;
 		java.sql.Date sqlDate = null;
 		String id = request.getParameter("sId");

@@ -39,4 +39,14 @@
     <servlet-name>DeleteController</servlet-name>
     <url-pattern>/DeleteController</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ViewController</display-name>
+    <servlet-name>ViewController</servlet-name>
+    <servlet-class>com.newt.controller.ViewController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewController</servlet-name>
+    <url-pattern>/ViewController</url-pattern>
+  </servlet-mapping>
 </web-app>
